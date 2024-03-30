@@ -41,7 +41,7 @@
       "scratch-storage": ["./node_modules/@turbowarp/types/index.d.ts"],
       "scratch-audio": ["./node_modules/@turbowarp/types/index.d.ts"],
       "scratch-parser": ["./node_modules/@turbowarp/types/index.d.ts"],
-      "scratch-blocks": ["./types/scratch-blocks.ts"]
+      "scratch-blocks": ["./node_modules/@turbowarp/types/index.d.ts"]
     },
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
