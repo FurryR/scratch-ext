@@ -34,7 +34,7 @@ npm install
 
 在 `package.json` 中:
 
-```json
+```javascript
 {
   "name": "scratch-ext", // 把这个改成你扩展的名字
   "version": "1.0.0", // 把这个改成你扩展的版本 (你也可以使用 `npm version major|minor|patch` 来更改版本)
@@ -53,7 +53,7 @@ npm install
 
 在 `tsconfig.json` 中:
 
-```json
+```javascript
 {
   "compilerOptions": {
     // ...

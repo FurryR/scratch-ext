@@ -34,7 +34,7 @@ npm install
 
 In `package.json`:
 
-```json
+```javascript
 {
   "name": "scratch-ext", // Replace this with your extension's name
   "version": "1.0.0", // Replace this with your extension's version (or use `npm version major|minor|patch` to change)
@@ -53,7 +53,7 @@ In `package.json`:
 
 In `tsconfig.json`:
 
-```json
+```javascript
 {
   "compilerOptions": {
     // ...
