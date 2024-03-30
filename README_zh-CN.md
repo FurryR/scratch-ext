@@ -60,6 +60,7 @@ npm install
   },
   "include": [
     "node_modules/@turbowarp/types/types/scratch-vm-extension.d.ts",
+    "types/universal.d.ts",
     "types/turbowarp.d.ts", // 若需要 Turbowarp 上更好的体验，请保留这一行。如果你希望写仅适配 Gandi IDE 的扩展，请删除这一行。
     "types/gandi.d.ts", // 若需要 Gandi IDE 上更好的体验，请保留这一行。如果你希望写仅适配 Turbowarp 的扩展，请删除这一行。
     "src/**/*",

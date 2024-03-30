@@ -60,6 +60,7 @@ In `tsconfig.json`:
   },
   "include": [
     "node_modules/@turbowarp/types/types/scratch-vm-extension.d.ts",
+    "types/universal.d.ts",
     "types/turbowarp.d.ts", // Add this for better experience on Turbowarp, plz remove it if you only want to write Gandi-only extensions
     "types/gandi.d.ts", // Add this for better experience on Gandi IDE, plz remove it if you want to write Turbowarp-only extensions
     "src/**/*",
