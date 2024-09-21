@@ -8,9 +8,9 @@
     "lint": "eslint ./src",
     "lint:type": "tsc --noEmit -p ./tsconfig.json",
     "fix": "eslint ./src --fix",
-    "start": "tsup && http-server ./dist -p 8080 --cors",
-    "build": "tsup",
-    "build:turbowarp": "tsup && (npx prettier --config turbowarp/.prettierrc --parser acorn < dist/index.global.js) > dist/index.global.formatted.js",
+    "start": "tsup src/withL10n.ts && http-server ./dist -p 8080 --cors",
+    "build": "tsup src/withL10n.ts",
+    "build:turbowarp": "tsup src/index.ts && (npx prettier --config turbowarp/.prettierrc --parser acorn < dist/index.global.js) > dist/index.global.formatted.js && rimraf dist/index.global.js",
     "format": "prettier ./src -c -w",
     "lint:format": "prettier ./src -c"
   },
